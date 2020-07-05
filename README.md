@@ -1,5 +1,7 @@
 # Minecraft Quest Server
 
+NOTE: This only works on Windows.
+
 ## Usage
 
 - `create-new.bat` - Creates a copy of the template & starts the server.
