@@ -9,7 +9,7 @@ sudo chmod u+r+x *
 
 # Create a copy of the template
 echo Copying templete...
-cp -R server-template server-copy
+cp -R -T server-template server-copy
 
 # Download the datapack
 ./datapack.sh
