@@ -1,1 +1,0 @@
-rd /Q /S "MCQ Server Copy"

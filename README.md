@@ -1,6 +1,4 @@
-# Minecraft Quest Server
-
-NOTE: This only works on Windows.
+# Minecraft Quest Server Ubuntu Version
 
 ## Usage
 
