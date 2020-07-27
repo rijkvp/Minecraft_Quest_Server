@@ -7,14 +7,14 @@ sudo chmod u+r+x *
 # Delete the old server copy
 ./delete-server.sh
 
-# Download the datapack
-./datapack.sh
-
 # Create a copy of the template
 echo Copying templete...
 cp -R server-template server-copy
 
-# Run the copied version
+# Download the datapack
+./datapack.sh
+
+# Go to the copied folder
 cd ./server-copy
 
 # Give perms
