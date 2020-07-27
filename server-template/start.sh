@@ -1,1 +1,1 @@
-java -Xms8000M -Xmx8000M -jar server.jar nogui
+java -Xms4G -Xmx8G -jar server.jar nogui
