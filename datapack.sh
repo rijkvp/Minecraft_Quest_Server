@@ -1,10 +1,11 @@
 echo Downloading datapack...
-sudo mkdir server-copy
+sudo mkdir -p server-copy
 cd server-copy
-sudo mkdir world
+sudo mkdir -p world
 cd world
-sudo mkdir datapacks
+sudo mkdir -p datapacks
 cd datapacks
+sudo rm -rf MCQuest_Datapack
 sudo git clone https://github.com/Rijk-van-Putten/MCQuest_Datapack.git
 cd ../../..
 echo Downloaded datapack!
