@@ -1,9 +1,9 @@
 @echo off
-title MCQ Server
+title Minecraft Quest Server
 cls
 :loop
-  java -Xmx4096M -Xms4096M -jar server.jar nogui
-  echo Opniew starten over 5 seconden...
-  timeout /T 5
+  java -Xmx2048M -Xms2048M -jar server.jar nogui
+  echo Restarting in 10 seconden...
+  timeout /T 10
   goto loop
 
