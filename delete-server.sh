@@ -1,2 +1,2 @@
 echo Deleting old server...
-rm -r server-copy
+rm -rf server-copy
