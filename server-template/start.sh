@@ -1,1 +1,1 @@
-java -d64 -Xms4096M -Xmx16384M -jar server.jar nogui
+java -server -d64 -Xms4096M -Xmx16384M -jar server.jar nogui
