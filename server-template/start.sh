@@ -1,1 +1,1 @@
-java -server -d64 -Xms4096M -Xmx16384M -jar vanilla.jar nogui
+java -server -Xms4096M -Xmx32768M -XX:ParallelGCThreads=8 -jar vanilla.jar nogui
