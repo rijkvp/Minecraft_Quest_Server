@@ -5,16 +5,17 @@ sudo chmod u+r+x *
 if  [ $1 == 1 ]
 then
 echo "starting with pre-load chunks datapack"
+cp -R -T chunkdatapack ./server-copy/world/datapacks
 
 elif [ $1 = 2 ]
 then
 echo "Copying world from server-copy"
-cp -R -T ./server-copy/world/ chunkdatapack
+cp -R -T ./server-copy/world/ chunkworld
 
 elif [ $1 = 3 ]
 then
-echo "pasting datapack from chunkdatapack"
-cp -R -T chunkdatapack ./server-copy/world/
+echo "pasting world from chunkworld"
+cp -R -T chunkworld ./server-copy/world/
 
 elif [ $1 == 0 ]
 then
