@@ -1,3 +1,6 @@
+# Perms in this directory
+sudo chmod u+r+x *
+
 #Pre-load chunks
 if  [ $1 == 1 ]
 then
@@ -27,8 +30,6 @@ fi
 # Make sure the JRE is installed
 sudo apt install default-jre
 
-# Perms in this directory
-sudo chmod u+r+x *
 
 # Delete the old server copy
 ./delete-server.sh
