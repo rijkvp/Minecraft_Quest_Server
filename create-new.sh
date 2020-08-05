@@ -20,5 +20,9 @@ cd ./server-copy
 # Give perms
 sudo chmod u+r+x *
 
+# Update IP
+echo Updating IP...
+sudo sed -i -E "s/^(server-ip[[:blank:]]*=[[:blank:]]*).*/\1$(hostname -I | awk '{print $1}')/" server-template/server.properties
+
 echo Starting server...
 ./start.sh
